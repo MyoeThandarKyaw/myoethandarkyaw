@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-28T11:30:00 MMT" name="Default suite" finished-at="2024-03-28T11:30:47 MMT" duration-ms="47208">
+    <groups>
+    </groups>
+    <test started-at="2024-03-28T11:30:00 MMT" name="Default test" finished-at="2024-03-28T11:30:47 MMT" duration-ms="47208">
+      <class name="property_for_sale.QA_Assignment.SearchBy_ProvinceName">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:property_for_sale.QA_Assignment.SearchBy_ProvinceName@169e6180]" started-at="2024-03-28T11:30:00 MMT" name="beforeClass" finished-at="2024-03-28T11:30:02 MMT" duration-ms="2536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:property_for_sale.QA_Assignment.SearchBy_ProvinceName@169e6180]" started-at="2024-03-28T11:30:02 MMT" name="beforeMethod" finished-at="2024-03-28T11:30:25 MMT" duration-ms="22522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchProvinceName()[pri:0, instance:property_for_sale.QA_Assignment.SearchBy_ProvinceName@169e6180]" started-at="2024-03-28T11:30:25 MMT" name="searchProvinceName" finished-at="2024-03-28T11:30:46 MMT" duration-ms="21456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProvinceName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:property_for_sale.QA_Assignment.SearchBy_ProvinceName@169e6180]" started-at="2024-03-28T11:30:46 MMT" name="afterMethod" finished-at="2024-03-28T11:30:46 MMT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:property_for_sale.QA_Assignment.SearchBy_ProvinceName@169e6180]" started-at="2024-03-28T11:30:46 MMT" name="afterClass" finished-at="2024-03-28T11:30:47 MMT" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- property_for_sale.QA_Assignment.SearchBy_ProvinceName -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
