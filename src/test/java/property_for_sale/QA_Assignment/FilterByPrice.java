@@ -56,8 +56,8 @@ public class FilterByPrice {
 
 		WebElement modalContainer = driver.findElement(By.id("onesignal-slidedown-container"));
 		Thread.sleep(2000);
-		WebElement modalAcceptButton = modalContainer.findElement(By.xpath(".//button[contains(text(),'No Thanks')]"));
-		modalAcceptButton.click();
+		WebElement modalNoThanksButton = modalContainer.findElement(By.xpath(".//button[contains(text(),'No Thanks')]"));
+		modalNoThanksButton.click();
 
 		// Click Accept for cookies
 		WebElement cookiesContainer = driver.findElement(By.className("group_btn"));
@@ -133,7 +133,7 @@ public class FilterByPrice {
 
 		}
 
-		Matcher actualPriceMatcher = pattern.matcher(maxPrice);
+		Matcher actualPriceMatcher = pattern.matcher(actualPrice);
 		if (actualPriceMatcher.find()) {
 			// Convert the matched string to integer
 			expected_Price = Integer.parseInt(actualPriceMatcher.group());

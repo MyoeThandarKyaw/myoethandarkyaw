@@ -50,8 +50,8 @@ public class SearchBy_SubDistrict {
 
 		WebElement modalContainer = driver.findElement(By.id("onesignal-slidedown-container"));
 		Thread.sleep(2000);
-		WebElement modalAcceptButton = modalContainer.findElement(By.xpath(".//button[contains(text(),'No Thanks')]"));
-		modalAcceptButton.click();
+		WebElement modalNoThanksButton = modalContainer.findElement(By.xpath(".//button[contains(text(),'No Thanks')]"));
+		modalNoThanksButton.click();
 
 		// Click Accept button for cookies
 		WebElement cookiesContainer = driver.findElement(By.className("group_btn"));
